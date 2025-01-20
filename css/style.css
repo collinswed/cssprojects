@@ -1,0 +1,115 @@
+/* To remove browser default padding and margins */
+*{
+    box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(231, 192, 133);
+    font-family:
+    line-height
+}
+h3{
+    color: crimson;
+}
+
+
+.heading{color: rgb(50, 50, 226);
+}
+
+/* styling the box made by div */
+#menu{
+
+    background-color: rgb(158, 152, 230);
+    width: auto;
+    
+    height: 40px;
+    color: rgb(75, 8, 8);
+    /* padding creats internal space, margin creates external space */
+    padding-left: 50px; padding-top: 12px;
+    padding-right: 50px;
+    margin-right: 10px;
+    text-align: right;
+  
+
+}
+
+/*targeting only the text */
+#menu a{
+    text-decoration: none; /*helps to remove the underline */
+    color: white;
+    font-weight: 600;
+    background-color: rgb(33, 19, 51);
+    padding: 5px 5px;
+    border-radius: 3px;  /*creats curve at the edges */
+    display: inline;
+}
+
+#menu a:hover{
+        background-color: rgb(193, 188, 199); 
+}
+
+#hero{
+    background-color: rgb(63, 17, 17);
+    width: auto;
+    height: 400px;
+    
+    /* padding creats internal space, margin creates external space */
+    padding-left: 30px; padding-top: 120px;
+    margin-right: 10px;
+    text-align: center;
+     /*creats curve at the edges */
+    margin-top: 5px;s
+    margin-bottom: 5px;
+   
+
+}
+
+#hero p{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#hero h3{
+    color: white; 
+    font-size: 50px;
+    margin-top: -10px;
+    padding: 1px;
+}
+
+#hero a{
+     background-color: rgb(113, 113, 233); 
+      color: rgb(185, 55, 55);
+      padding: 15px;
+      margin-top: 60px;
+      border-radius: 5px;
+      text-decoration: none; /*helps to remove the underline */
+     
+}
+
+#hero a:hover{
+    background-color: rgb(228, 228, 240); 
+}
+
+#courses{
+   
+    margin-top: 10px;
+    text-align: center;
+}
+#courses h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    
+}
+
+#courses img{
+  height: 150px; 
+  margin: 0px 5px; 
+ 
+  
+}
